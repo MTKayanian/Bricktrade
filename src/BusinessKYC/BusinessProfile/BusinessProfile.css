@@ -1,0 +1,245 @@
+.businessProfile{
+    min-height: 100vh !important;
+}
+.custom-profile-width {
+    max-width: 936px;
+    margin: 0px auto;
+}
+img.upload-pic{
+	width:90px;
+	height:90px;
+	border-radius:30px;
+}
+.upload-btn-wrapper {
+    overflow: hidden;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.upload-btn {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: linear-gradient(180deg, #FF5050 26.52%, #FB54AD 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    position: relative;
+}
+.upload-btn img {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.edit-details a{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #1091FF;
+	text-transform:uppercase;
+	font-family: sfpro-regular;
+}
+.kyc-aml-app {
+    text-align: right;
+    margin-top: 13px;
+    letter-spacing: 0.26px;
+    color: #3DD8BC;
+    font-size: 14px;
+    line-height: 20px;
+}
+.profile-section {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 24px;
+}
+.fs-20 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 170.23%;
+	display: flex;
+	align-items: center;
+	color: #031C49;
+}
+.border1 {
+	border: 1px solid #ECECEC;
+}
+.mb-32 {
+	margin-bottom: 32px;
+}
+.mb-10 {
+	margin-bottom: 13px;
+}
+
+.white-space {
+    white-space: normal;
+}
+.red-text {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #EB5757;
+}
+.red-msg {
+    background: #FFE4E4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 16px 32px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.inputFancy label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.26px;
+    color: #7C8495;
+    margin: 0;
+}
+.inputFancy input#password-input {
+    position: relative;
+    font-size: 16px;
+    z-index: 2;
+    border: none;
+    background: transparent;
+}
+input#password-input:focus {
+    outline: none;
+}
+
+span.hint {
+    margin-top: 8px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+span.hint::before {
+    content: "* ";
+}
+.sub-head span{
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.26px;
+	color: #3DD8BC;
+	float: right;
+    width: 170px;
+    text-align: left;
+}
+.close-profl-ac {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 60px;
+}
+.close-profl-ac a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #EB5757;	
+}
+.modal.close-ac {
+  	left: 0;
+  	top: 0;
+  	width: 100%; 
+  	height: 100%;
+ 	overflow: auto; 
+  	background-color: rgb(0,0,0); 
+  	background-color: rgba(1, 1, 1, 0.54);
+}
+.close-ac .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 36px 45px 48px 45px;
+    width: 100%;
+	border-radius: 10px;
+}
+.submit-cancl-btn.mt-4 {
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn.btn {
+    background: #3274ED;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 46px;
+    margin-right:30px;
+	text-transform:uppercase;
+}
+.close-ac .cancl-btn.btn {
+    background: #fff;
+	border: 2px solid #C6C9C8;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #A7A7A7;
+    width: 160px;
+    height: 46px;
+	text-transform:uppercase;
+}
+.red-color{
+	color: #FF2B2B !important;
+}
+.orange-color{
+	color: #FF8A00 !important;
+	font-weight: normal;
+}
+.incmplt span{
+	font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+    color: #FF2B2B;
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.businessProfile >select {
+    border: 1px solid #e8e9e9;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24%;
+    margin: 2px 0px;
+    color: #031c49;
+    outline: none;
+  }
+  .businessProfile > a{
+      cursor: pointer;
+  }
+  .sub-head1 > input{
+      width: 150% !important;
+  }
+
+
+.fs-14-profile{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: '#9C9C9C';
+}
+
+.wallet-incomplete-profile{
+    text-align: right;
+    margin-top: 13px;
+    letter-spacing: 0.26px;
+    color: #FF2B2B !important;
+    font-size: 14px;
+    line-height: 20px;
+}

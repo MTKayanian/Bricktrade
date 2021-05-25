@@ -1,0 +1,11 @@
+.document-tab li a{padding: 0px!important;}
+.document-tab li a>span{padding: 15px; display: block;}
+.progress-step .style-blue::before{left: 82px!important;}
+.left-59 {left: 59px !important;}
+.cal-icon { position: absolute!important; right: 5px!important; top: 14%!important;background: transparent;
+    border: none;}
+.postive-icon{max-width: 104px;}
+/* .mar-pos{margin-top: 10rem;} */
+.bus_link{font-family: Lato;  font-style: normal; font-weight: 900;
+    font-size: 14px;  line-height: 19px;  align-items: center; text-align: center;
+    letter-spacing: 2.35846px; text-transform: uppercase; color: #3274ED; padding-left: 20px;}

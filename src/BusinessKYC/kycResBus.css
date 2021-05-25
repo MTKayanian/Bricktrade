@@ -1,0 +1,545 @@
+@media(min-width:1660px){
+	.content-head .left-content {
+    margin-right: 21%;
+	}
+}
+@media(max-width:1060px) and (min-width:992px){
+.document-tab li a {
+    margin-right: 0;
+	margin-bottom: 20px;
+	width:230px !important;
+}
+}
+@media(max-width:892px) and (min-width:720px){
+	.document-tab li a {
+		margin-right: 0;
+		margin-bottom: 20px;
+		width:200px !important;
+	}
+	}
+	@media(max-width:720px) and (min-width:479px){
+		.document-tab li a {
+			margin-right: 0;
+			margin-bottom: 20px;
+			width:140px !important;
+		}
+		}
+@media(max-width:1024px){
+	.asset-graph {
+		padding-top: 0px;
+	}
+	.decentralize-txt{
+		font-size: 9px;
+	}
+	.active-polls{
+		padding: 12px 15px;
+	}
+	.token-balance-bttm p{
+		font-size: 10px;
+	}
+	.chart-head .head-txt {
+		font-size: 24px;
+	}
+	.transaction-price {
+		bottom: 208px;
+		right: 38px;
+	}
+	.time-date-value div:nth-child(1) {
+		font-size: 10px;
+	}
+	.transaction-btm,.token-transaction .time-date-value div:nth-child(2){
+		font-size: 10px;
+	}
+	.send-but a{
+		padding: 10px 30px;
+	}
+	.req-but a{
+		padding: 10px 14px;
+	}
+	.search-form .form-group button img{
+		top: 12px;
+	}
+.active-polls ul li{
+	margin-bottom: 0;
+	font-size: 12px;
+}
+.nav-items1{
+	width:33% !important;
+}
+}
+@media(max-width:991px){
+	.see-all h6 {
+		padding-top: 25px;
+	}
+	.send-but a{   padding: 10px 52px;;}
+	.req-but a{    padding: 10px 30px}
+	.next-arrow{top: 30px;}
+.card-content .left-txt{
+	margin-left: 40px;
+	    max-width: 166px;
+}
+}
+@media(max-width:768px){
+	.token-select {
+    margin-top: 15px;
+	width: 100%;
+	}
+	.search-form .form-group{
+		    padding-left: 20%;
+	}
+	.search-form .form-group button img{
+		position: absolute;
+		display: block;
+	}
+	.form-group img{display: none;}
+	.pr-ice{display: none;}
+	
+	.market-table{
+		margin: 0 15px 0 7px;
+	}
+	.active-polls{
+		    padding: 12px 11px;
+	}
+	
+	button img{
+		display: block;
+	}
+	.see-all h6{
+		padding-top: 30px;
+	}
+	.token-balance h2{
+		    font-size: 14px;
+	}
+	.token-amount{
+		    font-size: 22px;
+	}
+	button.send-btn {
+    width: 100%;
+	}
+	button.receive-btn {
+		width: 100%;
+		margin-top: 15px;
+	}
+	.token-balance-bttm p {
+		font-size: 6px;
+	}
+	.transaction-price {
+		bottom: 176px;
+		right: 0px;
+	}
+	.balance-top .balance-amount{
+		    font-size: 26px;
+	}
+	.balance-top h2{
+		    font-size: 18px;
+	}
+	.balance-top {
+    padding-left: 15px;
+}
+	.white-bg-content{
+		font-size: 9px;
+		max-width: 164px;
+	}
+	.asset-hd h2 span{
+		    font-size: 36px;
+	}
+	.asset-graph{
+		padding-top:0;
+	}
+	.asset-portfolio,.send-lc-network{
+		margin-top: 18px;
+	}
+	.asset-portfolio{
+		margin-top: 15px
+	}
+	.asset-p-data span:nth-child(2){
+		font-size: 18px;
+		    width: 60px;
+	}
+	.asset-portfolio h2{
+		margin-bottom: 10px;
+	}
+	.asset-portfolio .asset-p-data .cir{
+		width: 18px;
+    height: 18px;
+	margin-right: 9px;
+	}
+	.margin-bottom-23 {
+    margin-bottom: 14px;
+}
+	
+
+	.card-content{
+		padding-left: 8px;
+	}
+	.card-content .left-txt{
+		
+		font-size: 12px;
+	}
+	.card-content .right-img{
+		max-width: 20px;
+	}
+	.card-content .right-img img{
+		width:100%;
+	}
+	
+	.decentralize h2{
+		font-size: 12px;
+	}
+	.progress{
+		display: none;
+	}
+
+	.decentralize-txt{
+		line-height: 16px;
+		margin-top: 10px;
+	}
+	.menu-container ul{
+		    width: 100%;
+	}
+	.menu-container ul li{
+		font-size: 7px;
+	}
+	.active-polls h2 {
+    margin-bottom: 5px;
+
+	}
+	.active-polls ul li{
+	margin-bottom: 0;
+    font-size: 10px;
+    line-height: 14px;
+
+
+	}
+	.time-date-value{
+		display:block;
+	}
+	.time-date-value div:nth-child(2) {
+    font-size: 18px;
+	}
+	.doc-type ul li a {
+    width: 118px;
+    height: 68px;
+	}
+	.documentation{
+		padding-left: 10px;
+    padding-right: 10px;
+	}
+	.doc-type ul li a{
+		font-size:12px;
+	}
+	.document-form .form-group {
+    max-width: 100%;
+	}
+	.business-p ul li{
+		    font-size: 8px;
+	}
+	.r-custom-padd{
+		padding:0px;
+	}
+	.white-bg{
+		    margin: 0;
+	}
+	.transaction-details {
+    padding: 20px;
+	}
+	.active-poll-back {
+    padding-left: 0px;
+    width: 100%;
+	}
+	.overview-head,.content-head {
+    display: block;
+	}
+	.right-search,.search-form{
+		display: block;
+		margin-top:15px;
+	}
+	.content-head .search-form input,.project-select{
+		    width: 100%;
+	}
+	.project-select{
+		margin-top:15px;
+	}
+	.token-menu-box{
+		margin-top:15px;
+	}
+/*Business KYC*/
+li.nav-item {
+    width: 100%;
+}
+.business-profile, .btnLightBlue .btn {
+    width: 100%;
+}
+.btnLightBlue .btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btnLightBlue {
+    display: block;
+}
+.sub-head span{
+	width:auto;
+}
+
+.search-form .form-group{padding-left: 0px}
+}
+@media(max-width:767px){
+	.right-search {
+    display: flex;
+    margin-top: 10px;
+}
+	.menu-container ul li{
+		padding-top: 25px;
+	}
+	.pr-ice{display: block;}
+	.menu-wrap{
+	display: block;
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: 10%;
+
+}
+.active-poll-back{
+	padding: 0;
+}
+.trans{margin-top: 22px;}
+.transaction-bg{padding-right: 35px;}
+.decentralize {
+    margin-top: 30px;}
+.decentralize-box{    margin-bottom: 20px;}
+.send-but a{padding: 10px 50px;}
+.req-but a{padding: 10px 34px;}
+.market-table{    margin: 0 15px 0 15px}
+.panel {
+    position: fixed !important;
+	background:#fff;
+	margin-top:70px;
+}
+.transaction-head{
+	flex-direction: column;
+    margin-bottom: 20px;
+}
+.menu-container {
+    background-color: transparent;
+    position: absolute;
+    min-height: 730px !important;
+}
+	.token-balance-bttm p {
+    font-size: 10px;
+	}
+	.chart-head {
+    display: block;
+	}
+	.transaction-price {
+		bottom: 142px;
+	}
+
+	.overview-head{
+		    display: flex;
+	}
+	.user-pic {
+    font-size: 18px;
+	}
+	.edit-pro a.edit-info-btn {
+    font-size: 11px;
+	width:auto;
+	}
+	.user-profile .dob-input {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.agree-bttn {
+    width: 100%;
+    display: flex;
+}
+.profile-data,.business-account{
+	margin-top:15px;
+}
+.business-solution .nav-tabs li{
+	    margin-right: 0;
+}
+.business-solution .nav-tabs{
+	padding-left:0;
+}
+.bus-sol-right{
+	margin-top:15px;
+}
+.secure-asset {
+    display: block;
+}
+.business-solution .nav-tabs li a{
+	margin:0;
+}
+.reserve-token .form-group span{
+	    left: 164px;
+}
+.reserve-token .form-group button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+form.login-wallet-form {
+    display: block;
+}
+.login-next-btn,.cancel-btn{
+	margin-left: 0;
+	margin-top: 15px;
+	width:100%
+}
+.btn-area {
+    display: block;
+}
+.btn-area>div{
+	margin-left:0 !important;
+	margin-right:0 !important;
+	margin-bottom:15px;
+}
+.btn-area .continue-btn{
+	width:100%;
+}
+form.login-wallet-form {
+    display: block;
+}
+.btn-area .btn.accept-btn {
+    width: 100%;
+}
+.wallet-create {
+    display: block;
+}
+.wallet-bg{
+	height:auto;
+}
+.t-areas p{
+	word-break: break-word;
+}
+	.documentation{
+		margin-top:15px;
+	}
+	.doc-type ul{
+		    flex-direction: column;
+	}
+	.doc-type ul li a{
+		width:100%;
+	}
+.task-status .nav-tabs{
+	justify-content: space-between;
+}
+.task-status .nav-tabs li {
+    padding-left: 0;
+}
+.search-form input.form-control{margin-left: 45px;}
+	.button.search-form-btn img{    margin-right: 275px;}
+	
+/*Business KYC*/
+.fancyInput input, .fancyInput select{
+	width:100%;
+}
+.input-txt-d {
+    flex-direction: column;
+}
+.left-source-list{
+	margin-bottom:20px;
+}
+.kyc-approval{
+	display:block;
+	text-align:center;
+	 margin-top: 30px;
+}
+.approve-right {
+    margin-left: auto;
+    margin-top: 20px;
+}
+.completed span{
+	display:block;
+	margin-top:30px;
+}
+}
+@media(max-width: 480px){
+	.mailinput,.mailinput input{
+		width:100%;
+	}
+	.ac-info ul li div{
+		width: 43%;
+	}
+	.user-details ul li {
+    justify-content: space-between;
+	}
+	.user-details ul li span{
+		display:block;
+	}
+	
+}
+@media(max-width: 325px){
+	.send-but a{
+		padding: 10px 20px;
+	}
+	.req-but a{
+		 padding: 10px 5px;
+	}
+	.decentralize-box1 div{
+		padding-left: 0;
+	}
+	.decentralize-box{
+		margin-left: 0;
+	}
+	.see-all{
+		text-align: left;
+	}
+	.transaction-head{padding: 0 10px;}
+}
+@media(max-width:480px){
+	
+	.send-network-form .form-group.wallet input{
+		width:100%;
+	}
+	.send-network-form .form-group.amount input{
+		max-width:100%;
+	}
+	.time-date-value {
+    display: flex;
+}
+.musig-private-key .form-group button{
+	    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+.musig-private-key .form-group input{
+	 width: 100%;
+}
+.resolve-bttn{
+	max-width: 79px;
+	font-size: 12px;
+}
+.resolve-input input{
+	font-size: 12px;
+}
+.payment-steps .head-tab{
+	    flex-direction: column;
+}
+.payment-steps ul li{
+	    padding: 13px 18px;
+}
+.fancylist select{
+	    padding-right: 9px;
+}
+.submit-btn.btn,.close-ac .cancl-btn.btn{
+	width:100%;
+	margin-bottom:15px;
+}
+}
+@media(max-width:400px)
+{
+.btnLightBlue{
+	display: flex;
+	flex-direction: column;
+}
+.document-tab li a {
+	margin-right: 0;
+	margin-bottom: 20px;
+	width:196px !important;
+}
+
+}

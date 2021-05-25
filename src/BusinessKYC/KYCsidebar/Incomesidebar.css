@@ -1,0 +1,5 @@
+.acc-head{font-family: Karla; font-style: normal; font-weight: bold; font-size: 14px;
+    line-height: 16px; color: #4F4F4F;}
+#step1 .acc-head{color: #031C49;}
+.is-complete .acc-head{color: #4F4F4F!important;}
+.current_sideis-complete .acc-head{color: #031C49;}

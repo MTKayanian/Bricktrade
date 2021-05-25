@@ -1,0 +1,5 @@
+.left-margin{margin-left: 200px;}
+.button-cont{font-family: Lato; font-style: normal; font-weight: 900; font-size: 14px; line-height: 19px;  display: flex;
+    align-items: center; text-align: center;  letter-spacing: 2.35846px;  color: #FFFFFF;} 
+.next-button{width: 140% !important; border-radius: 3px; margin-left: 15px;
+}

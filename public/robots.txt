@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: *
+Allow: /
+
+Sitemap: https://bricktrade.co.uk//sitemap.xml

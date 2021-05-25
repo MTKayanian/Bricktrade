@@ -1,0 +1,389 @@
+.SignUpNow_Form {
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-right: auto;
+}
+.SignUpNow_img {
+    height: 100vh;
+    /* width: 100%; */
+}
+.SignUp_logo{
+    padding-top: 25px;
+}
+.SignUpNow_heading{margin-top: 30px;}
+.SignUpNow_heading h3{
+    font-size: 1.2rem;
+    transform: translate(0%,40%);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.SignUpNow_heading p{
+    font-size: 1rem;
+    line-height: 20px;
+    color: #4D5B61;
+}
+.Signup_Now{
+    transform: translate(0%,0%);
+}
+.SignUpBusiness{
+    transform: translate(0%,0%);
+}
+
+.SignUpNow_inputs select {
+    color: #91A1BB;
+    border-radius: 6px;
+    height: 40px;
+    /* min-width: 240px;*/
+    max-width: 240px;
+    padding: 8px 0px 0px 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: 23px;
+    background: url("../../static/images/arrow.png") no-repeat;
+    background-size: 12px;
+    /* font-size: 0.6rem; */
+    background-position: 93%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.SignUpNow_inputs input {
+    height: 40px;
+    /* min-width: 240px;*/
+    max-width: 240px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: #91A1BB;
+    border: none;
+    outline: none;
+    font-size: 0.9375rem;
+}
+
+.SignUpNow_inputs ::placeholder {
+    color: #91A1BB;
+    ;
+}
+
+.SignUpNow_radio {
+    display: flex;
+    transform: translate(0%,20%);
+}
+
+.SignUpNow_inputs_2 {
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.SignUpNow_bottom_text {
+    display: flex;
+    align-items: flex-start;
+    color: #91A1BB;
+    font-size: 0.825rem;
+    margin-top: -10px;
+}
+.SignUpNow_bottom_text a{color: #0e7be4;}
+.SignUpNow_bottom_text1{
+    padding-top: 10px;
+    color: #91A1BB;
+    font-size: 0.825rem;
+
+}
+.SignUpNow_bottom_text p {
+    margin-top: 2px;
+}
+
+.SignUpNow_bottom_text a {
+    color: #2A95FD;
+    cursor: pointer;
+}
+
+.SignUpNow_eye {
+    height: 40px;
+    /* min-width: 240px;*/
+    max-width: 240px;
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.SignUpNow_eye {}
+.SignUpNow_eye img {
+    margin-right: 12px;
+    width: 16px;
+    cursor: pointer;
+    height: 10px;
+    position: absolute;
+    right: 0;
+}
+.SignUpNow_button {
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    background: #545961;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    min-width: 136px;;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.radio {
+
+    display: block;
+   position: relative;
+   padding-left: 24px;
+   padding-right: 24px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 1.1rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+   position: absolute;
+   top: 6px;
+   left: 0;
+   height: 16px;
+   width: 16px;
+   background-color: #fff ;
+   border-color:#4DA5FB;
+   border-style:solid;
+   border-width:2px;
+    border-radius: 50%;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkround {
+   background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkround:after {
+   display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkround:after {
+    left: 1px;
+   top: 1px;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background:#4DA5FB;
+
+
+}
+
+/* The check */
+.check {
+   display: block;
+   position: relative;
+   padding-left: 25px;
+   margin-bottom: 12px;
+   padding-right: 15px;
+   cursor: pointer;
+   font-size: 18px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+   position: absolute;
+   top: 3px;
+   left: 0;
+   height: 18px;
+   width: 18px;
+   background-color: #fff ;
+   border-color:#4DA5FB;
+   border-style:solid;
+   border-width:2px;
+}
+
+
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+   background-color: #fff  ;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+   display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+   left: 5px;
+   top: 1px;
+   width: 5px;
+   height: 10px;
+   border: solid ;
+   border-color:#4DA5FB;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.cust-btn{
+   margin-bottom: 10px;
+   background-color: #4DA5FB;
+   border-width: 2px;
+   border-color: #4DA5FB;
+   color: #fff;
+}
+.cust-btn:hover{
+
+   border-color: #4DA5FB;
+   background-color: #fff;
+   color: #4DA5FB;
+   border-radius: 20px;
+   transform-style: 2s;
+
+}
+
+
+.SignUpNow_main {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* Hide the default checkbox */
+
+input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.SignUpNow_geekmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ecebed;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+
+/* Specify the background color to be
+  shown when hovering over checkbox */
+
+.SignUpNow_main:hover input~.SignUpNow_geekmark {
+    background-color: #ffffff;
+}
+
+
+/* Specify the background color to be
+  shown when checkbox is active */
+
+.SignUpNow_main input:active~.SignUpNow_geekmark {
+    background-color: #ffffff;
+}
+
+
+/* Specify the background color to be
+  shown when checkbox is checked */
+
+.SignUpNow_main input:checked~.SignUpNow_geekmark {
+    background-color: #ffffff;
+}
+
+
+/* Checkmark to be shown in checkbox */
+
+
+/* It is not be shown when not checked */
+
+.SignUpNow_geekmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Display checkmark when checked */
+
+.SignUpNow_main input:checked~.SignUpNow_geekmark:after {
+    display: block;
+}
+
+
+/* Styling the checkmark using webkit */
+
+
+/* Rotated the rectangle by 45 degree and
+  showing only two border to make it look
+  like a tickmark */
+
+.SignUpNow_main .SignUpNow_geekmark:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 10px;
+    border: 1px solid #2A95FD;
+    ;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

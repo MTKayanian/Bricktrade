@@ -1,0 +1,18 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+RewriteCond %{HTTP_HOST} ^bricktrade\.co.uk [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://bricktrade.co.uk/$1 [R,L]
+
+</IfModule>
+
+
+# END WordPress

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+body {
+    background-color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+li{
+	list-style:none;
+}
+ul{
+	padding:0;
+}
+.white-bg{
+	background:#fff;
+	padding-bottom: 110px;
+}
+
+.successful-body-content{
+	max-width:400px;
+	width:100%;
+	margin-top:58px;
+}
+.successful-signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 73%;
+}
+.successful-description{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140.28%;
+    color: #34495E;
+	margin-left: -56px;
+}
+.successful-description span{
+	    margin-right: 17px;
+}
+.successful-signin p{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 170.23%;
+	color: #34495E;
+}
+.successful-signin-main {
+    max-width: 100%;
+    /* background: url(../images/banner1.png) no-repeat; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.successful-pb-20{
+	padding-bottom: 20px;
+}
+
+
+
+.successful-submit-bttns{
+	display: flex;
+    justify-content: space-between;
+}
+.successful-submit-bttns .next-btn {
+    background: #3274ED;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2.35846px;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 50%;
+}
+
+
+.successful-bottom-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.successful-bottom-menu ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #031C49;
+    padding-right: 15px;
+}
+.successful-bottom-menu ul li:not(:last-child):after {
+  	content: "|";
+  	padding: 0 10px;
+  	font-weight: bold;
+}
+.successful-at-bottom{
+	position: absolute;
+    bottom: 20px;
+}
+.successful-comment-box{
+	background: #3274ED;
+    box-shadow: 0px 3px 20px rgba(195, 195, 195, 0.595533);
+    border-radius: 6px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    bottom: 26px;
+    right: 26px;
+    cursor: pointer;
+}
+.successful-comment-box img{
+	position: absolute;
+    left: 32%;
+    top: 30%;
+}
+
